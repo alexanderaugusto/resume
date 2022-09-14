@@ -2,7 +2,7 @@
 
 <p align="center">
  <a href="#-about">About</a> •
- <a href="#-features">Features</a> •
+ <a href="#-%EF%B8%8F-features">Features</a> •
  <a href="#-owner">Owner</a> •
  <a href="#-license">License</a> •
 </p>
@@ -18,7 +18,7 @@ This project contains my resume profile page for the DM121 course. It will be up
   - [x] Create HTML page skeletom
   - [ ] Add CSS styles
   - [ ] Add JS scripts
-  
+
 ---
 
 ## 🦸 Owner
