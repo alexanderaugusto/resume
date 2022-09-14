@@ -15,9 +15,10 @@ This project contains my resume profile page for the DM121 course. It will be up
 
 ## ⚙️ Features
 
-	- [x] Create HTML page skeletom
-	- [ ] Add CSS styles
-	- [ ] Add JS scripts
+  - [x] Create HTML page skeletom
+  - [ ] Add CSS styles
+  - [ ] Add JS scripts
+  
 ---
 
 ## 🦸 Owner
