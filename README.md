@@ -2,7 +2,7 @@
 
 <p align="center">
  <a href="#-about">About</a> •
- <a href="#-%EF%B8%8F-features">Features</a> •
+ <a href="#%EF%B8%8F-features">Features</a> •
  <a href="#-owner">Owner</a> •
  <a href="#-license">License</a> •
 </p>
