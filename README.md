@@ -1,19 +1,6 @@
 # My Resume Page for DM121
 
 <p align="center">
-
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alexanderaugusto/dm121-resume?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/alexanderaugusto/dm121-resume">
-
-  <a href="https://github.com/alexanderaugusto/dm121-resume/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alexanderaugusto/dm121-resume">
-  </a>
-
-   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-</p>
-
-<p align="center">
  <a href="#-about">About</a> •
  <a href="#-features">Features</a> •
  <a href="#-owner">Owner</a> •
