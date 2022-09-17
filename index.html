@@ -3,218 +3,307 @@
 <head>
   <title>Resume - Alexander Augusto</title>
   <script src="https://kit.fontawesome.com/11a2787614.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="style/global.css">
+  <link rel="stylesheet" href="style/home.css">
+  <link rel="stylesheet" href="style/menu.css">
 </head>
 
 <body>
-  <nav>
-    <section>
-      <img src="/assets/img/alexander.jpg" alt="alexander.png" width="100" height="100" />
+  <div class="bg-container">
+    <div id="cv-container" class="cv-container">
+      <div class="menu-mini">
+        <button id="btn-menu-open" class="btn-menu" onclick="showLeftMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <button id="btn-menu-close" class="btn-menu" onclick="hideLeftMenu()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
 
-      <h2>Alexander <span>Augusto</span></h2>
-      <h3>Systems Specialist</h3>
+      <nav class="menu">
+        <section class="resume">
+          <img src="/assets/img/alexander.jpg" alt="alexander.png" width="100" height="100" />
 
-      <ul>
-        <li>
-          <i class="fas fa-globe"></i>
-          <a href="https://alexanderaugusto.com">www.alexanderaugusto.com</a>
-        </li>
-        <li>
-          <i class="far fa-envelope"></i>
-          <a href="mailto:alexaasf1010@gmail.com?subject=example&body=example">alexaasf1010@gmail.com</a>
-        </li>
-        <li>
-          <i class="fa fa-whatsapp"></i>
-          <a href="//api.whatsapp.com/send?phone=5535984529203">(35) 98452-9203</a>
-        </li>
-        <li>
-          <i class="fas fa-map-marker-alt"></i>
-          <a
-            href="https://www.google.com.br/maps/place/S%C3%A3o+Jos%C3%A9+do+Alegre,+MG,+37510-000/@-22.3294044,-45.5301655,16z/data=!3m1!4b1!4m5!3m4!1s0x94cb76d2de44a30b:0x7b3b3f264c242f7b!8m2!3d-22.3294852!4d-45.5266048">
-            São José do Alegre, MG
-          </a>
-        </li>
-      </ul>
+          <h2>Alexander <span>Augusto</span></h2>
+          <h3>Systems Specialist</h3>
 
-      <p>
-        Bachelor of Science in Computer Engineering with 3 years of experience in software development and digital
-        skills.
-        I have extensive knowledge in Spring Boot, Node JS, React, Relational Database, Kubernetes, Docker and
-        Microservices in general.
-      </p>
-    </section>
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>Git</li>
-        <li>Relational Database</li>
-        <li>Docker</li>
-        <li>Kubernetes</li>
-        <li>N-Relational Database</li>
-        <li>Python</li>
-        <li>Machine Learning</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Language</h2>
-      <ul>
-        <li>
-          <p>Portuguese</p>
-          <p>Native</p>
-        </li>
-        <li>
-          <p>English</p>
-          <p>Intermediate</p>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2>References</h2>
-      <ul>
-        <li>
-          <i class="fa fa-instagram"></i>
-          <a href="https://www.instagram.com/alexanderaugustosf/">@alexanderaugustosf</a>
-        </li>
-        <li>
-          <i class="fa fa-github"></i>
-          <a href="https://github.com/alexanderaugusto">github.com/alexanderaugusto</a>
-        </li>
-        <li>
-          <i class="fa fa-linkedin"></i>
-          <a href="https://www.linkedin.com/in/alexanderaugusto">linkedin.com/in/alexanderaugusto</a>
-        </li>
-      </ul>
-    </section>
-  </nav>
-
-  <div>
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <h3>Application Development for Mobile Devices and Cloud Computing</h3>
-          <h4>National Institute of Telecommunications INATEL</h4>
-          <time>2022 - Ongoing, Minas Gerais, MG</time>
-        </li>
-        <li>
-          <h3>Computer Engineering</h3>
-          <h4>National Institute of Telecommunications INATEL</h4>
-          <time>2017 - 2021, Minas Gerais, MG</time>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2>Experience</h2>
-      <ul>
-        <li>
-          <h3>Systems Specialist II - Team Leader and Scrum Master</h3>
-          <h4>Inatel/Ericsson, MG</h4>
-          <time>2021 - Ongoing</time>
           <ul>
-            <li>REST API</li>
-            <li>Spring Boot</li>
-            <li>OSGI</li>
-            <li>JavaScript</li>
-            <li>Docker</li>
-            <li>Kubernetes</li>
-            <li>Jenkins</li>
-            <li>Database - Oracle and EDB</li>
-            <li>Git</li>
-            <li>Karate and JUnit for automated testing</li>
-            <li>Agile Methodologies</li>
+            <li>
+              <i class="fas fa-globe"></i>
+              <a href="https://alexanderaugusto.com">www.alexanderaugusto.com</a>
+            </li>
+            <li>
+              <i class="far fa-envelope"></i>
+              <a href="mailto:alexaasf1010@gmail.com?subject=example&body=example">alexaasf1010@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa fa-whatsapp"></i>
+              <a href="//api.whatsapp.com/send?phone=5535984529203">(35) 98452-9203</a>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <a
+                href="https://www.google.com.br/maps/place/S%C3%A3o+Jos%C3%A9+do+Alegre,+MG,+37510-000/@-22.3294044,-45.5301655,16z/data=!3m1!4b1!4m5!3m4!1s0x94cb76d2de44a30b:0x7b3b3f264c242f7b!8m2!3d-22.3294852!4d-45.5266048">
+                São José do Alegre, MG
+              </a>
+            </li>
           </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Full Stack Developer (Internship)</h3>
-          <h4>Aurem Startup, MG</h4>
-          <time>2020 - 2021</time>
+
+          <p>
+            Bachelor of Science in Computer Engineering with 3 years of experience in software development and digital
+            skills.
+            I have extensive knowledge in Spring Boot, Node JS, React, Relational Database, Kubernetes, Docker and
+            Microservices in general.
+          </p>
+        </section>
+        <section class="skill">
+          <h2>Skills</h2>
           <ul>
-            <li>RESTFUL API - Node JS + Express</li>
-            <li>Socket.IO</li>
-            <li>MySQL, Postgres and MongoDB</li>
-            <li>ReactJS and NextJS</li>
-            <li>Figma</li>
-            <li>Electron</li>
-            <li>AWS</li>
-            <li>Docker</li>
-            <li>Git</li>
-            <li>Agile Methodologies and Unit Tests</li>
+            <li>
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <p>Java</p>
+            </li>
+            <li>
+              <p>Git</p>
+            </li>
+            <li>
+              <p>Relational Database</p>
+            </li>
+            <li>
+              <p>Docker</p>
+            </li>
+            <li>
+              <p>Kubernetes</p>
+            </li>
+            <li>
+              <p>N-Relational Database</p>
+            </li>
+            <li>
+              <p>Python</p>
+            </li>
+            <li>
+              <p>Machine Learning</p>
+            </li>
           </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Front End Developer (Internship)</h3>
-          <h4>Fiscoserv Startup, MG</h4>
-          <time>2019 - 2020</time>
+        </section>
+        <section class="language">
+          <h2>Language</h2>
           <ul>
-            <li>React JS</li>
-            <li>Dashboards</li>
-            <li>Git</li>
-            <li>Agile Methodologies</li>
+            <li>
+              <p>Portuguese</p>
+              <p class="language-level">Native</p>
+            </li>
+            <li>
+              <p>English</p>
+              <p class="language-level">Intermediate</p>
+            </li>
           </ul>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2>Certifications</h2>
-      <ul>
-        <li>
-          <h3>Docker: Creating Containers without the headache</h3>
-          <h4>Alura</h4>
-          <time>2021</time>
-        </li>
-        <li>
-          <h3>Spring Boot REST API: API, Security, Cache, Monitoring, Profiles, Tests and Deploy</h3>
-          <h4>Alura</h4>
-          <time>2021</time>
-        </li>
-        <li>
-          <h3>Tests: BDD with Cucumber and Mockito</h3>
-          <h4>Alura</h4>
-          <time>2021</time>
-        </li>
-        <li>
-          <h3>Jax-RS and Jersey: Master the Creation of REST Webservices</h3>
-          <h4>Alura</h4>
-          <time>2021</time>
-        </li>
-        <li>
-          <h3>Maven: Dependency management and java application build</h3>
-          <h4>Alura</h4>
-          <time>2021</time>
-        </li>
-        <li>
-          <h3>Git and Github: Branching, Conflicts, and Pull Request Strategies</h3>
-          <h4>Alura</h4>
-          <time>2021</time>
-        </li>
-        <li>
-          <h3>Design Patterns in Java: Good Programming Practices</h3>
-          <h4>Alura</h4>
-          <time>2021</time>
-        </li>
-        <li>
-          <h3>Intensive English Course</h3>
-          <h4>USK</h4>
-          <time>2021</time>
-        </li>
-        <li>
-          <h3>Behind The Code Marathon</h3>
-          <h4>IBM</h4>
-          <time>2021</time>
-        </li>
-        <li>
-          <h3>Call For Code Hackathon</h3>
-          <h4>IBM</h4>
-          <time>2021</time>
-        </li>
-      </ul>
-    </section>
+        </section>
+        <section class="reference">
+          <h2>References</h2>
+          <ul>
+            <li>
+              <i class="fa fa-instagram"></i>
+              <a href="https://www.instagram.com/alexanderaugustosf/">@alexanderaugustosf</a>
+            </li>
+            <li>
+              <i class="fa fa-github"></i>
+              <a href="https://github.com/alexanderaugusto">github.com/alexanderaugusto</a>
+            </li>
+            <li>
+              <i class="fa fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/alexanderaugusto">linkedin.com/in/alexanderaugusto</a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+
+      <div class="home">
+        <section class="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <h3>Application Development for Mobile Devices and Cloud Computing</h3>
+              <h4>National Institute of Telecommunications INATEL</h4>
+              <time>2022 - Ongoing, Minas Gerais, MG</time>
+            </li>
+            <li>
+              <h3>Computer Engineering</h3>
+              <h4>National Institute of Telecommunications INATEL</h4>
+              <time>2017 - 2021, Minas Gerais, MG</time>
+            </li>
+          </ul>
+        </section>
+        <section class="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li>
+              <h3>Systems Specialist II - Team Leader and Scrum Master</h3>
+              <h4>Inatel/Ericsson, MG</h4>
+              <time>2021 - Ongoing</time>
+              <ul class="list-techs">
+                <li>
+                  <p>REST API</p>
+                </li>
+                <li>
+                  <p>Spring Boot</p>
+                </li>
+                <li>
+                  <p>OSGI</p>
+                </li>
+                <li>
+                  <p>JavaScript</p>
+                </li>
+                <li>
+                  <p>Docker</p>
+                </li>
+                <li>
+                  <p>Kubernetes</p>
+                </li>
+                <li>
+                  <p>Jenkins</p>
+                </li>
+                <li>
+                  <p>Database - Oracle and EDB</p>
+                </li>
+                <li>
+                  <p>Git</p>
+                </li>
+                <li>
+                  <p>Karate and JUnit for automated testing</p>
+                </li>
+                <li>
+                  <p>Agile Methodologies</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h3>Full Stack Developer (Internship)</h3>
+              <h4>Aurem Startup, MG</h4>
+              <time>2020 - 2021</time>
+              <ul class="list-techs">
+                <li>
+                  <p>RESTFUL API - Node JS + Express</p>
+                </li>
+                <li>
+                  <p>Socket.IO</p>
+                </li>
+                <li>
+                  <p>MySQL, Postgres and MongoDB</p>
+                </li>
+                <li>
+                  <p>ReactJS and NextJS</p>
+                </li>
+                <li>
+                  <p>Figma</p>
+                </li>
+                <li>
+                  <p>Electron</p>
+                </li>
+                <li>
+                  <p>AWS</p>
+                </li>
+                <li>
+                  <p>Docker</p>
+                </li>
+                <li>
+                  <p>Git</p>
+                </li>
+                <li>
+                  <p>Agile Methodologies and Unit Tests</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h3>Front End Developer (Internship)</h3>
+              <h4>Fiscoserv Startup, MG</h4>
+              <time>2019 - 2020</time>
+              <ul class="list-techs">
+                <li>
+                  <p>React JS</p>
+                </li>
+                <li>
+                  <p>Dashboards</p>
+                </li>
+                <li>
+                  <p>Git</p>
+                </li>
+                <li>
+                  <p>Agile Methodologies</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="certification">
+          <h2>Certifications</h2>
+          <ul>
+            <li>
+              <h3>Docker: Creating Containers without the headache</h3>
+              <h4>Alura</h4>
+              <time>2021</time>
+            </li>
+            <li>
+              <h3>Spring Boot REST API: API, Security, Cache, Monitoring, Profiles, Tests and Deploy</h3>
+              <h4>Alura</h4>
+              <time>2021</time>
+            </li>
+            <li>
+              <h3>Tests: BDD with Cucumber and Mockito</h3>
+              <h4>Alura</h4>
+              <time>2021</time>
+            </li>
+            <li>
+              <h3>Jax-RS and Jersey: Master the Creation of REST Webservices</h3>
+              <h4>Alura</h4>
+              <time>2021</time>
+            </li>
+            <li>
+              <h3>Maven: Dependency management and java application build</h3>
+              <h4>Alura</h4>
+              <time>2021</time>
+            </li>
+            <li>
+              <h3>Git and Github: Branching, Conflicts, and Pull Request Strategies</h3>
+              <h4>Alura</h4>
+              <time>2021</time>
+            </li>
+            <li>
+              <h3>Design Patterns in Java: Good Programming Practices</h3>
+              <h4>Alura</h4>
+              <time>2021</time>
+            </li>
+            <li>
+              <h3>Intensive English Course</h3>
+              <h4>USK</h4>
+              <time>2021</time>
+            </li>
+            <li>
+              <h3>Behind The Code Marathon</h3>
+              <h4>IBM</h4>
+              <time>2021</time>
+            </li>
+            <li>
+              <h3>Call For Code Hackathon</h3>
+              <h4>IBM</h4>
+              <time>2021</time>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <div id="particles-js"></div>
   </div>
+  <script src="javascript/particles.js"></script>
+  <script src="javascript/app.js"></script>
+  <script src="javascript/menu.js"></script>
 </body>
 
 </html>

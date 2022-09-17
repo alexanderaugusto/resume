@@ -1,0 +1,191 @@
+/* Common Sections */
+.menu {
+  background-color: var(--color-primary);
+  padding: 15px;
+  padding-top: 8vh;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.menu * ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.menu * ul li {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu * ul li p {
+  color: var(--color-light);
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.menu * li i {
+  font-size: 0.9em;
+  color: var(--color-light);
+}
+
+.menu * li a {
+  text-decoration: none;
+  color: var(--color-secondary);
+  margin-left: 10px;
+  font-size: 1.1em;
+}
+
+/* Resume Section */
+.menu .resume img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu .resume h2 {
+  color: var(--color-light);
+  font-size: 1.7em;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+.menu .resume span {
+  font-weight: bold;
+  color: var(--color-bg);
+}
+
+.menu .resume h3 {
+  color: var(--color-light);
+  font-size: 1.4em;
+  font-weight: lighter;
+  margin-top: 8px;
+}
+
+.menu .resume li i {
+  color: var(--color-secondary);
+}
+
+.menu .resume p {
+  color: var(--color-light);
+  font-size: 0.9em;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+
+/* Skill, Language and Refrence Sections */
+.menu .skill, .menu .language, .menu .reference {
+  margin-top: 30px;
+}
+
+.menu .skill h2, .menu .language h2, .menu .reference h2 {
+  color: var(--color-secondary);
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* Language Section */
+.menu .language ul li p {
+  width: 100%;
+}
+
+.menu .language ul li .language-level {
+  opacity: 0.7;
+}
+
+/* Reference Section */
+.menu .reference ul li i {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-light);
+  color: var(--color-primary);
+}
+
+.menu .reference ul li {
+  margin-top: 15px;
+}
+
+.menu .reference ul li a {
+  color: var(--color-light);
+}
+
+/* Left Menu */
+.menu-mini {
+  background-color: var(--color-primary);
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  display: none;
+  position: fixed;
+  z-index: 3;
+}
+
+.btn-menu {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.7em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 4;
+  color: var(--color-light);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#btn-menu-open {
+  display: block;
+}
+
+#btn-menu-close {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .menu {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .menu {
+    position: sticky;
+    width: 300px;
+    z-index: 3;
+    display: none;
+  }
+
+  .menu-mini {
+    display: flex;
+  }
+
+  .menu--open .menu {
+    display: block;
+  }
+
+  .menu--open .menu-mini {
+    justify-content: flex-end;
+  }
+
+  .menu--open #btn-menu-open {
+    display: none;
+  }
+
+  .menu--open #btn-menu-close {
+    display: block;
+  }
+}
