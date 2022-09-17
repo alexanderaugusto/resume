@@ -1,6 +1,6 @@
+/* Common Sections */
 .home {
   padding: 30px;
-  padding-top: 8vh;
   background-color: var(--color-bg);
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -50,6 +50,12 @@
 
 .home * .list-techs {
   margin-bottom: 40px;
+}
+
+.home * .list-techs li p {
+  color: var(--color-font-grey-light);
+  font-size: 0.9em;
+  font-weight: lighter;
 }
 
 .home * .list-techs li p {
