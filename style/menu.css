@@ -22,14 +22,14 @@
 }
 
 .menu * ul li p {
-  color: var(--color-light);
+  color: var(--color-font-light);
   font-size: 0.9em;
   margin: 0;
 }
 
 .menu * li i {
   font-size: 0.9em;
-  color: var(--color-light);
+  color: var(--color-font-light);
 }
 
 .menu * li a {
@@ -50,7 +50,7 @@
 }
 
 .menu .resume h2 {
-  color: var(--color-light);
+  color: var(--color-font-light);
   font-size: 1.7em;
   font-weight: lighter;
   margin-bottom: 0;
@@ -58,11 +58,11 @@
 
 .menu .resume span {
   font-weight: bold;
-  color: var(--color-bg);
+  color: var(--color-font-light-2);
 }
 
 .menu .resume h3 {
-  color: var(--color-light);
+  color: var(--color-font-light);
   font-size: 1.4em;
   font-weight: lighter;
   margin-top: 8px;
@@ -73,7 +73,7 @@
 }
 
 .menu .resume p {
-  color: var(--color-light);
+  color: var(--color-font-light);
   font-size: 0.9em;
   font-weight: lighter;
   margin-top: 30px;
@@ -107,7 +107,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-light);
+  background-color: var(--color-font-light);
   color: var(--color-primary);
 }
 
@@ -116,7 +116,7 @@
 }
 
 .menu .reference ul li a {
-  color: var(--color-light);
+  color: var(--color-font-light);
 }
 
 /* Left Menu */
@@ -142,7 +142,7 @@
   justify-content: center;
   cursor: pointer;
   z-index: 4;
-  color: var(--color-light);
+  color: var(--color-font-light);
   margin-left: 15px;
   margin-right: 15px;
 }

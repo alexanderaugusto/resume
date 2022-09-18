@@ -11,11 +11,14 @@
 </head>
 
 <body>
-  <div class="bg-container">
+  <div id="bg-container" class="bg-container theme--light">
     <div id="cv-container" class="cv-container">
       <nav class="menu-mini">
         <button id="btn-menu-open" class="btn-menu" onclick="showLeftMenu()">
           <i class="fas fa-bars"></i>
+        </button>
+        <button id="btn-theme-menu" class="btn-theme" onclick="changeTheme()">
+          <i class="fas fa-moon"></i>
         </button>
         <button id="btn-menu-close" class="btn-menu" onclick="hideLeftMenu()">
           <i class="fas fa-times"></i>
@@ -123,6 +126,9 @@
       </nav>
 
       <div class="home">
+        <button id="btn-theme-home" class="btn-theme" onclick="changeTheme()">
+          <i class="fas fa-moon"></i>
+        </button>
         <section class="education">
           <h2>Education</h2>
           <ul>
