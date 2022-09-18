@@ -2,24 +2,25 @@
 
 <head>
   <title>Resume - Alexander Augusto</title>
-  <script src="https://kit.fontawesome.com/11a2787614.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/51683816?v=4">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link rel="stylesheet" href="style/global.css">
   <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="style/menu.css">
+  <script src="https://kit.fontawesome.com/11a2787614.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="bg-container">
     <div id="cv-container" class="cv-container">
-      <div class="menu-mini">
+      <nav class="menu-mini">
         <button id="btn-menu-open" class="btn-menu" onclick="showLeftMenu()">
           <i class="fas fa-bars"></i>
         </button>
         <button id="btn-menu-close" class="btn-menu" onclick="hideLeftMenu()">
           <i class="fas fa-times"></i>
         </button>
-      </div>
+      </nav>
 
       <nav class="menu">
         <section class="resume">
@@ -301,9 +302,9 @@
     </div>
     <div id="particles-js"></div>
   </div>
-  <script src="javascript/particles.js"></script>
+  <script src="javascript/particle/particles.js"></script>
+  <script type="module" src="javascript/particle/app.js"></script>
   <script src="javascript/app.js"></script>
-  <script src="javascript/menu.js"></script>
 </body>
 
 </html>
